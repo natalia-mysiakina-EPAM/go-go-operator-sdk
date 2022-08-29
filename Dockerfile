@@ -1,4 +1,4 @@
-FROM alpine:3.15.4
+FROM public.ecr.aws/docker/library/nginx:1.19-alpine
 
 ENV OPERATOR=/usr/local/bin/go-go-operator-sdk \
     USER_UID=1001 \
